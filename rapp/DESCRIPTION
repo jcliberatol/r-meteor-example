@@ -1,0 +1,11 @@
+Package: rapp
+Title: Example app connecting IRTpp and meteor
+Version: 0.0.0.9000
+Authors@R: person("Juan", "Liberato", email = "jcliberatol@unal.edu.co", role = c("aut", "cre"))
+Description: Showing interconnection between R and meteorjs.
+Depends: R (>= 3.2.2)
+License: GPL-2
+LazyData: true
+Imports:
+  IRTpp,
+  rmongodb
